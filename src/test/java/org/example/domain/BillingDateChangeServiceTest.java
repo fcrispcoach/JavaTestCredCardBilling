@@ -8,7 +8,7 @@ class BillingDateChangeServiceTest {
     @Test
     void shouldChangeBillingDateSuccessfully() {
         BillingDateChangeService service = new BillingDateChangeService();
-        boolean result = service.changeBillingDate(15);
+        boolean result = service.changeBillingDate(16);
         assertTrue(result);
     }
 
